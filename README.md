@@ -1,6 +1,14 @@
-# Within- and between-host efficacy of neuraminidase inhibitors against influenza infection
+Table of Contents
+=================
 
-This repository is provided as a companion to the paper [title], which can be obtained from [bioRxiv](biorxiv), and which we also provide here for completeness.
+* [Overview](#overview)
+* [Within\-host efficacy of neuraminidase inhibitors](#within-host-efficacy-of-neuraminidase-inhibitors)
+
+# Overview
+
+**Note:** This is only the within-host code. Full repository accessible from [systemsmedicine](https://github.com/systemsmedicine/neuraminidase-inhibitors)
+
+This repository is provided as a companion to the paper *Neuraminidase inhibitors---is it time to call it a day?*, which can be obtained from [bioRxiv](https://www.biorxiv.org/content/early/2018/01/10/245175), and which we also provide here for completeness.
 
 We explore the effects of therapy with NAIs using the within-host model of influenza by [Lukens *et al.* (2014)](https://bmcpublichealth.biomedcentral.com/articles/10.1186/1471-2458-14-1019), which includes symptoms, and which we expand with a simple description of the antiviral drug. The system is given by
 
@@ -29,8 +37,22 @@ Focusing on the prophylactic scenario, we further assess the effectiveness of NA
 Our results suggest that the use of NAIs is unwarranted in practical treatment settings, while its large cost-effectiveness ratio cast doubts on their prophylactic use.
 
 The following directories are part of this repository:
+
 - `docs` contains a copy of the paper.
-- `code` contains the source code necessary to reproduce our results, along with further details on its implementation.
+- `code` contains the source code necessary to reproduce our results.
 - `data` contains the data employed for the epidemic simulation.
 - `figures` contains all images appearing in the paper, plus additional outputs from the code.
-- `eqs` simply contains renderings of the LaTeX equations shown in this page.
+- `eqs` simply contains renderings of the LaTeX equations appearing on this page.
+
+
+# Within-host efficacy of neuraminidase inhibitors
+
+The code corresponding to the within-host analysis is provided here as an interactive Jupyter notebook (see [jupyter.org](https://jupyter.org/)): `within-host.ipynb`. It has been tested and should run with no issues in both Python 2 and 3.
+
+Our main analytical result corresponds to expressing the peak drug efficacy <img src="https://rawgit.com/cparrarojas/neuraminidase-inhibitors/master/eqs/214137ef71f6ae5ef408da351260bf63.svg?invert_in_darkmode" align=middle width=14.400705pt height=22.63866pt/> as a function of the drug parameters, as shown below.
+
+<p align="center"><img src="./figures/efficacy_drug.png" alt="efficacy vs. drug" style="width: 500px;"/></p>
+
+Here, the horizontal axis shows the mean life of the drug, while the vertical axis corresponds to its half-maximal concentration. The curative and pandemic regimens correspond, respectively, to a dose of 75 and 150 mg, taken twice a day.
+
+**Note:** for visualisation-only purposes the notebook can be directly displayed in Github by simply clicking on it. However, we recommend using [this link](https://nbviewer.jupyter.org/github/systemsmedicine/neuraminidase-inhibitors/blob/master/code/within-host.ipynb).
