@@ -38,9 +38,8 @@ Our results suggest that the use of NAIs is unwarranted in practical treatment s
 
 The following directories are part of this repository:
 
-- `docs` contains a copy of the paper.
 - `code` contains the source code necessary to reproduce the within-host results.
-- `figures` contains all within-host images appearing in the paper, plus additional outputs from the code.
+- `figures` contains outputs from the code.
 - `eqs` simply contains renderings of the LaTeX equations appearing on this page.
 
 
