@@ -20,7 +20,7 @@ We explore the effects of therapy with NAIs using the within-host model of influ
 
 <p align="center"><img src="https://rawgit.com/cparrarojas/neuraminidase-inhibitors/master/eqs/4fe0b125350f9f28bc0b9437f077469f.svg?invert_in_darkmode" align=middle width=227.2446pt height=39.45249pt/></p>
 
-<p align="center"><img src="https://rawgit.com/cparrarojas/neuraminidase-inhibitors/master/eqs/d72d8eaf8b33f2af11fe9a9fa60eae71.svg?invert_in_darkmode" align=middle width=92.95836pt height=16.50363pt/></p>
+<p align="center"><img src="https://rawgit.com/cparrarojas/neuraminidase-inhibitors/master/eqs/d72d8eaf8b33f2af11fe9a9fa60eae71.svg?invert_in_darkmode" align=middle width=227.8089pt height=39.45249pt/></p>
 
 <p align="center"><img src="https://rawgit.com/cparrarojas/neuraminidase-inhibitors/master/eqs/c5f0ebb2cdd8e62ea5f58ccc670f76ea.svg?invert_in_darkmode" align=middle width=59.47392pt height=18.330015pt/></p>
 
