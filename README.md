@@ -8,7 +8,7 @@ Table of Contents
 
 **Note:** This is only the within-host code. Full repository accessible from [systemsmedicine](https://github.com/systemsmedicine/neuraminidase-inhibitors)
 
-This repository is provided as a companion to the paper *Neuraminidase inhibitors---is it time to call it a day?*, by C. Parra-Rojas, V. K. Nguyen, G. Hernandez-Mejia, and E. A. Hernandez-Vargas.
+This repository is provided as a companion to the paper [*Neuraminidase Inhibitors in Influenza Treatment and Prevention&mdash;Is It Time to Call It a Day?*](https://www.mdpi.com/1999-4915/10/9/454), by C. Parra-Rojas, V. K. Nguyen, G. Hernandez-Mejia, and E. A. Hernandez-Vargas.
 
 We explore the effects of therapy with NAIs using the within-host model of influenza by [Lukens *et al.* (2014)](https://bmcpublichealth.biomedcentral.com/articles/10.1186/1471-2458-14-1019), which includes symptoms, and which we expand with a simple description of the antiviral drug. The system is given by
 
